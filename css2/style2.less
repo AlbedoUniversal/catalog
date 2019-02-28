@@ -33,20 +33,25 @@
 }
 
 .socialweb() {
-    text-align:center;
-    width:46px;
-    height:46px;
-    float:left;
-    background:rgb(255, 255, 255);
-    // border: 1px solid rgb(130, 65, 236);
+    text-align: center;
+    width: 46px;
+    height: 46px;
+    float: left;
+    background: #ffffff;
     -webkit-box-shadow: 0 8px 33px rgba(39, 88, 224, 0.67), inset 0 0 10px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 8px 10px rgba(34, 149, 216, 0.75), inset 0 0 20px rgb(161, 186, 202);
-    border-radius: 17px;
-    margin:0 10px 10px 0;
-    padding:6px;
-    color:#2858be;
+    box-shadow: 0 8px 10px rgba(135, 137, 138, 0.75), inset 0 0 20px #a1baca;
+    border-radius: 12px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #2858be;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     text-decoration: none;
 }
@@ -79,7 +84,7 @@ body {
             .logo {
                 position: relative;
                 background-color: @background-color;
-                height: auto;
+                height: 100px;
                 width: 100%;
                 span {
                     color: #2e1a4e;
@@ -99,15 +104,22 @@ body {
             padding-right: 0;
             .sitename {
                 background-color: @background-color;
+                height: 100px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-end;
                 a {
                     font-family: @font-family-all-1;
                     color: #878d96;
                     text-align: center;
                     text-decoration: none;
+                    margin: 0;
                     h1 {
                         font-size: 30px;
                         text-decoration: none;
                         text-align: left;
+                        margin: 0;
                     }
                 }
                 .unselectable {
@@ -180,7 +192,7 @@ body {
         }
     }
     .main-content {
-        padding: 0;
+        // padding: 0;
         .col-lg-12 {
             padding-left: 0;
             padding-right: 0;
@@ -520,7 +532,7 @@ body {
                 height: 150px;
                 .logo {
                     position: relative;
-                    background-color: rgb(0, 0, 0);
+                    background-color: rgb(255, 255, 255);
                     span {
                         color: #2e1a4e;
                         position: absolute;
