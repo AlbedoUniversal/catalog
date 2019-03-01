@@ -1,0 +1,22 @@
+﻿CACHE MANIFEST
+
+#версия 1
+
+CACHE:
+index.html
+css/style.css
+list2.html
+css2/style2.css
+list3.html
+css3/style3.css
+imgage/anton.jpg
+imgage/boris.jpg
+imgage/gazovik.jpg
+imgage/roman.jpg
+imgage2/cotel1.jpg
+imgage2/cotel2.jpg
+
+NETWORK:
+*
+FALLBACK:
+/ /offline.html
